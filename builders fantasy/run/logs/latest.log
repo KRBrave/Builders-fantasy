@@ -1,0 +1,65 @@
+[23:12:19] [main/INFO]: Setting user: Player790
+[23:12:30] [main/INFO]: LWJGL Version: 2.9.4
+[23:12:40] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[23:12:49] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:12:49] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[23:12:49] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:12:50] [Thread-5/INFO]: OpenAL initialized.
+[23:12:50] [Sound Library Loader/INFO]: Sound engine started
+[23:13:04] [main/INFO]: Created: 512x512 textures-atlas
+[23:13:12] [main/INFO]: Narrator library for x64 successfully loaded
+[23:13:14] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[23:15:34] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
+[23:15:34] [Server thread/INFO]: Generating keypair
+[23:15:37] [Server thread/INFO]: Loaded 488 advancements
+[23:15:39] [Server thread/INFO]: Preparing start region for level 0
+[23:15:40] [Server thread/INFO]: Preparing spawn area: 3%
+[23:15:41] [Server thread/INFO]: Preparing spawn area: 6%
+[23:15:42] [Server thread/INFO]: Preparing spawn area: 9%
+[23:15:43] [Server thread/INFO]: Preparing spawn area: 15%
+[23:15:44] [Server thread/INFO]: Preparing spawn area: 19%
+[23:15:45] [Server thread/INFO]: Preparing spawn area: 25%
+[23:15:46] [Server thread/INFO]: Preparing spawn area: 33%
+[23:15:47] [Server thread/INFO]: Preparing spawn area: 43%
+[23:15:48] [Server thread/INFO]: Preparing spawn area: 52%
+[23:15:49] [Server thread/INFO]: Preparing spawn area: 60%
+[23:15:50] [Server thread/INFO]: Preparing spawn area: 70%
+[23:15:51] [Server thread/INFO]: Preparing spawn area: 79%
+[23:15:52] [Server thread/INFO]: Preparing spawn area: 88%
+[23:15:53] [Server thread/INFO]: Changing view distance to 12, from 10
+[23:15:57] [Server thread/INFO]: Player790[local:E:2987c0bb] logged in with entity id 1383 at (-238.5, 69.0, 137.5)
+[23:15:57] [Server thread/INFO]: Player790 joined the game
+[23:15:59] [Server thread/INFO]: Saving and pausing game...
+[23:16:00] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@1aea9fd4[id=2f0d3d8c-afbe-358f-b8f3-786d7b0f9259,name=Player790,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3188) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_201]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_201]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+[23:16:01] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[23:16:05] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[23:16:05] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[23:16:06] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8972ms behind, skipping 179 tick(s)
+[23:16:34] [main/INFO]: Stopping!
+[23:16:34] [Server thread/INFO]: Stopping server
+[23:16:34] [Server thread/INFO]: Saving players
+[23:16:35] [Server thread/INFO]: Saving worlds
+[23:16:35] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[23:16:35] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[23:16:35] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
